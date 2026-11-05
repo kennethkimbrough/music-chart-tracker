@@ -1,4 +1,4 @@
-# Trending Songs Finder
+# Music Chart Tracker
 
 [![Tests](https://github.com/kennethkimbrough/music-chart-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/kennethkimbrough/music-chart-tracker/actions/workflows/tests.yml)
 
