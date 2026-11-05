@@ -6,7 +6,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-HEADERS = {"User-Agent": "trending-songs-finder (+https://github.com/kennethkimbrough/trending-songs-finder)",
+HEADERS = {"User-Agent": "music-chart-tracker (+https://github.com/kennethkimbrough/music-chart-tracker)",
            "Accept": "application/json"}
 TOP_SONGS_URL = "https://rss.marketingtools.apple.com/api/v2/{country}/music/most-played/{limit}/songs.json"
 
