@@ -1,4 +1,4 @@
--- MySQL schema for trending-songs-finder (used when STORAGE=mysql; the default is a CSV file).
+-- MySQL schema for music-chart-tracker (used when STORAGE=mysql; the default is a CSV file).
 --   mysql -u root -p dbspotify < schema.sql
 
 CREATE TABLE IF NOT EXISTS runs (

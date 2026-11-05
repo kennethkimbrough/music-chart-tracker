@@ -1,12 +1,12 @@
 # Trending Songs Finder
 
-[![Tests](https://github.com/kennethkimbrough/trending-songs-finder/actions/workflows/tests.yml/badge.svg)](https://github.com/kennethkimbrough/trending-songs-finder/actions/workflows/tests.yml)
+[![Tests](https://github.com/kennethkimbrough/music-chart-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/kennethkimbrough/music-chart-tracker/actions/workflows/tests.yml)
 
 Tracks a music chart over time. Once a day it records Apple Music's Top Songs
 chart for the US, adds it to a history, and reports what entered, what dropped
 off, what moved, each song's peak position and how many days it has lasted.
 
-**Live page:** https://kennethkimbrough.github.io/trending-songs-finder/ is
+**Live page:** https://kennethkimbrough.github.io/music-chart-tracker/ is
 rebuilt from the history after every daily run.
 
 ## What it does
@@ -104,9 +104,9 @@ python main.py fetch
 With Docker, the image runs `fetch` by default:
 
 ```sh
-docker build -t trending-songs-finder .
-docker run --rm -v "$PWD/data:/app/data" trending-songs-finder
-docker run --rm -v "$PWD/data:/app/data" trending-songs-finder report
+docker build -t music-chart-tracker .
+docker run --rm -v "$PWD/data:/app/data" music-chart-tracker
+docker run --rm -v "$PWD/data:/app/data" music-chart-tracker report
 ```
 
 ## Tests
